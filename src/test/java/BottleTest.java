@@ -9,6 +9,7 @@ public class BottleTest {
     @Before
     public void before(){
         bottle = new Bottle();
+
     }
     @Test
     public void hasVolume(){
