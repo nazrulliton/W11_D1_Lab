@@ -25,4 +25,12 @@ public class CalculatorTest {
     public void subNums(){
         assertEquals(15.00, calculator.subNumbers(), 0.01);
     }
+    @Test
+    public void multiNums(){
+        assertEquals(250.00, calculator.multiNumbers(), 0.01);
+    }
+    @Test
+    public void divNums(){
+        assertEquals(2.50, calculator.divNumbers(), 0.01);
+    }
 }

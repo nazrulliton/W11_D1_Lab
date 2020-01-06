@@ -18,4 +18,10 @@ public class Calculator {
     public double subNumbers(){
         return this.num2 - this.num1;
     }
+    public double multiNumbers(){
+        return this.num1 * this.num2;
+    }
+    public double divNumbers(){
+        return this.num2 / this.num1;
+    }
 }
