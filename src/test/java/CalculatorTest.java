@@ -18,5 +18,11 @@ public class CalculatorTest {
         assertEquals(25.00, calculator.getNum2(), 0.01);
     }
     @Test
-    public void addNums()
+    public void addNums(){
+        assertEquals(35.00, calculator.addNumbers(), 0.01);
+    }
+    @Test
+    public void subNums(){
+        assertEquals(15.00, calculator.subNumbers(), 0.01);
+    }
 }

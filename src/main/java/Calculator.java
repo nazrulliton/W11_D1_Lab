@@ -12,4 +12,10 @@ public class Calculator {
     public double getNum2(){
         return this.num2;
     }
+    public double addNumbers(){
+        return this.num1 + this.num2;
+    }
+    public double subNumbers(){
+        return this.num2 - this.num1;
+    }
 }
