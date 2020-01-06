@@ -8,7 +8,7 @@ public class Bottle {
         return this.volume;
     }
     public int takesDrink(){
-        return this.volume - 10;
+        return this.volume -= 10;
     }
     public int emptyBottle(){
         return this.volume = 0;

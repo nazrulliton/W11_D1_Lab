@@ -19,6 +19,13 @@ public class BottleTest {
         assertEquals(90, bottle.takesDrink());
     }
     @Test
+    public void takeThreeDrinks(){
+        bottle.takesDrink();
+        bottle.takesDrink();
+        assertEquals(70, bottle.takesDrink());
+    }
+
+    @Test
     public void emptiesBottle(){
         assertEquals(0, bottle.emptyBottle());
     }
